@@ -8,5 +8,5 @@ services:
     volumes:
       - ./log:/app/log
     ports:
-      - "9024:3000"
+      - "3000:80"
     restart: always
