@@ -12,5 +12,5 @@ RUN yarn install
 # RUN yarn sitemap
 RUN yarn build
 
-EXPOSE 80
+EXPOSE 3000
 CMD [ "pm2-runtime", "start", "./ecosystem.config.js" ]
