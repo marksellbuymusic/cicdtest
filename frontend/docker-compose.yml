@@ -8,6 +8,8 @@ services:
     volumes:
       - ./log:/app/log
     ports:
-      # 뒤에있는게 내부
+      #<호스트 포트="">:<컨테이너 포트="">
+      #docker run 시에는 안먹음
+      #docker run -d -p 3001:3000
       - "3001:3000"
     restart: always
