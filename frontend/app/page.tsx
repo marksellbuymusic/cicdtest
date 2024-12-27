@@ -16,7 +16,7 @@ export default function Home() {
           priority
         />
       </div>
-      <h1>HI THIS IS FIRST PAGE</h1>
+      <h1>HI THIS IS SECOND PAGE</h1>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left"></div>
     </main>
   );
